@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Пасспорт</title>
+</head>
+
+<body>
+    <p align="center">
+        <font color="Orange" , face="Arial" size=5>РОССИЙСКАЯ ФЕДЕРАЦИЯ</font>
+    </p>
+    <p align="right">УДОСТОВЕРЕНИЕ ЛИЧНОСТИ ГРАЖДАНИНА</p>
+    <p>ФАМИЛИЯ <br>
+        <span>Александрова</span>
+    </p>
+</body>
+<script>let old_name_innerText = document.getElementsByTagName("span")[0].innerText</script>
+<script>console.log("Старое имя: ", old_name_innerText)</script>
+<script>
+    let new_name = "Иванов"
+    console.log("Новое имя: ", new_name)
+    let old_name_node = document.getElementsByTagName("span")[0]
+    old_name_node.innerText = new_name
+</script>
+
+</html>
