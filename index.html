@@ -12,16 +12,36 @@
     </p>
     <p align="right">УДОСТОВЕРЕНИЕ ЛИЧНОСТИ ГРАЖДАНИНА</p>
     <p>ФАМИЛИЯ <br>
-        <span>Александрова</span>
+        <span id="surname">Борщ</span>
+    </p>
+    <p>ИМЯ <br>
+        <span id="name">Богдан</span>
+    </p>
+    <p>ОТЧЕСТВО <br>
+        <span id="3name">Олегович</span>
     </p>
 </body>
-<script>let old_name_innerText = document.getElementsByTagName("span")[0].innerText</script>
-<script>console.log("Старое имя: ", old_name_innerText)</script>
 <script>
-    let new_name = "Иванов"
+    let old_surname_innerText = document.getElementById("surname").innerText
+    console.log("Старое имя: ", old_surname_innerText)
+    new_surname = "Kabanov"
+    console.log("Новое имя: ", new_surname)
+    old_surname_node = document.getElementById("surname")
+    old_surname_node.innerText = new_surname
+
+    let late_name_innerText = document.getElementById("name").innerText
+    console.log("Старое имя: ", late_name_innerText)
+    new_name = "Dmitrii"
     console.log("Новое имя: ", new_name)
-    let old_name_node = document.getElementsByTagName("span")[0]
-    old_name_node.innerText = new_name
+    late_name_node = document.getElementById("name")
+    late_name_node.innerText = new_name
+
+    let old_3name_innerText = document.getElementById("3name").innerText
+    console.log("Старое имя: ", old_3name_innerText)
+    new_3name = "Alexandrovich"
+    console.log("Новое имя: ", new_3name)
+    old_3name_node = document.getElementById("3name")
+    old_3name_node.innerText = new_3name
 </script>
 
 </html>
