@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pasport</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="./Navigator.html" target="_self"><b>Обратно к навигации</b></a></li>
+    </ul>
+    <style type="text/css">
+        body {
+            background-image: url(pas.png);
+            background-repeat: no-repeat;
+            background-size: 522px 731px;
+        }
+
+        .block1 {
+            margin-left: 100px;
+            margin-top: 38px;
+        }
+
+        .block2 {
+            margin-left: 105px;
+            margin-top: 65px;
+        }
+
+        .block3 {
+            margin-left: 350px;
+            margin-top: -17px;
+        }
+
+        .block4 {
+            margin-left: 270px;
+            padding-top: 215px;
+        }
+
+        .block5 {
+            margin-left: 270px;
+            margin-top: 35px;
+        }
+
+        .block6 {
+            margin-left: 250px;
+            margin-top: -6px;
+        }
+
+        .block7 {
+            margin-left: 200px;
+            margin-top: 9px;
+        }
+
+        .block8 {
+            margin-left: 330px;
+            margin-top: -35px;
+        }
+
+        .block9 {
+            margin-left: 280px;
+            margin-top: -8px;
+        }
+
+        .block10 {
+            margin-left: 180px;
+            margin-top: 100px;
+        }
+
+        .photo {
+            margin-left: 33px;
+            margin-top: -250px;
+        }
+    </style>
+
+    <div class="block1"> ГУ МВД РОССИИ ПО ГОР. МОСКВЕ</div>
+    <div class="block2"> 23.10.2018</div>
+    <div class="block3"> 770-064</div>
+    <div class="block4">
+        <p id="one">Кабанов</p>
+    </div>
+    <div class="block5">
+        <p id="two">Дмитрий</p>
+    </div>
+    <div class="block6"> Александрович</div>
+    <div class="block7"> муж.</div>
+    <div class="block8">
+        <p id="three">05.10.2004</p>
+    </div>
+    <div class="block9"> гор.Москва</div>
+    <div class="block10">
+        <h4 id="for_click">Нужно КЛИКНУТЬ</h4>
+    </div>
+    <div class="photo"><img src="./Face.png" height="150" width="120"></div>
+
+</body>
+<script>
+    let surname_innerText = document.getElementsByClassName("block4")[0].innerText
+    console.log("Старое имя: ", surname_innerText)
+    new_surname = "Kabanov"
+    console.log("Новое имя: ", new_surname)
+    surname_node = document.getElementsByClassName("block4")
+    surname_node.innerText = new_surname
+
+    let name_innerText = document.getElementsByClassName("block5")[0].innerText
+    console.log("Старое имя: ", name_innerText)
+    new_name = "Dmitrii"
+    console.log("Новое имя: ", new_name)
+    name_node = document.getElementsByClassName("block4")
+    name_node.innerText = new_name
+
+    let age_innerText = document.getElementsByClassName("block8")[0].innerText
+    console.log("Старое имя: ", age_innerText)
+    new_age = "11.10.2004"
+    console.log("Новое имя: ", new_age)
+    age_node = document.getElementsByClassName("block8")
+    age_node.innerText = new_age
+</script>
+<script src="./Kirillica.js"></script>
+
+</html>
