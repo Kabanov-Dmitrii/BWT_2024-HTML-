@@ -3,45 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Пасспорт</title>
+    <title>Навигация для паспорта и алгоритмической задачи</title>
 </head>
 
 <body>
-    <p align="center">
-        <font color="Orange" , face="Arial" size=5>РОССИЙСКАЯ ФЕДЕРАЦИЯ</font>
-    </p>
-    <p align="right">УДОСТОВЕРЕНИЕ ЛИЧНОСТИ ГРАЖДАНИНА</p>
-    <p>ФАМИЛИЯ <br>
-        <span id="surname">Борщ</span>
-    </p>
-    <p>ИМЯ <br>
-        <span id="name">Богдан</span>
-    </p>
-    <p>ОТЧЕСТВО <br>
-        <span id="3name">Олегович</span>
-    </p>
+    <h3>Навигация для паспорта и алгоритмической задачи:</h3>
+    <ul>
+        <li><a href="./Pasport.html" target="_self"><b>Паспорт (Кабанов Д.А.)</b></a>
+        <li><a href="./Screenshot.html" target="_self"><b>Скриншот паспорта</b></a>
+        <li><a href="./Passport_2.html" target="_self"><b>Изменяем кириллицу на латиницу по клику</b></a>
+            <br>
+        <li><a href="./count.html" target="_self"><b>Алгоритмическая задача №1014</b></a>
+        <li><a href="./count_2.html" target="_self"><b>Алгоритмическая задача №1014. С отправкой на удаленный сервер
+                    формы</b></a>
+    </ul>
 </body>
-<script>
-    let old_surname_innerText = document.getElementById("surname").innerText
-    console.log("Старое имя: ", old_surname_innerText)
-    new_surname = "Kabanov"
-    console.log("Новое имя: ", new_surname)
-    old_surname_node = document.getElementById("surname")
-    old_surname_node.innerText = new_surname
-
-    let late_name_innerText = document.getElementById("name").innerText
-    console.log("Старое имя: ", late_name_innerText)
-    new_name = "Dmitrii"
-    console.log("Новое имя: ", new_name)
-    late_name_node = document.getElementById("name")
-    late_name_node.innerText = new_name
-
-    let old_3name_innerText = document.getElementById("3name").innerText
-    console.log("Старое имя: ", old_3name_innerText)
-    new_3name = "Alexandrovich"
-    console.log("Новое имя: ", new_3name)
-    old_3name_node = document.getElementById("3name")
-    old_3name_node.innerText = new_3name
-</script>
 
 </html>
