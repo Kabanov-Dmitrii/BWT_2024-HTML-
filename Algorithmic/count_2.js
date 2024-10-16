@@ -1,29 +1,29 @@
 function verify() {
     console.log("a, b, c, d")
-    let a = parseInt(elementA.innerText);
-    let b = parseInt(elementB.innerText);
-    let c = parseInt(elementC.innerText);
-    let d = parseInt(elementD.innerText);
+    let a = parseInt(elementA.value);
+    let b = parseInt(elementB.value);
+    let c = parseInt(elementC.value);
+    let d = parseInt(elementD.value);
     console.log(a, b, c, d)
 
     let low, high
-    if (a < b) {
-        low = a;
-        high = b;
+    if (c < d) {
+        low = c;
+        high = d;
     }
     else {
-        low = b;
-        high = a;
+        low = d;
+        high = c;
     }
 
-    if ((c <= high) || (d <= high)) {
+    if (((a <= high) && (b <= low)) || ((a <= low) && (b <= high))) {
         result = "Можно поместить прямоугольник"
-        document.getElementById("result").innerText = result;
+        document.getElementById("result").innerText = messageText + result;
         document.getElementsByName('result')[0].value = result;
         check = true;
     } else {
         result = "Не возможно поместить прямоугольник"
-        document.getElementById("result").innerText = result;
+        document.getElementById("result").innerText = messageText + result;
         document.getElementsByName('result')[0].value = result;
         check = false;
     }
@@ -32,10 +32,11 @@ function verify() {
 function send() {
     if (check) {
         let textCondition = document.getElementsByTagName('p')[0].innerText
+        document.getElementsByName('formulation')[0].value = textCondition;
         document.getElementsByName('result')[0].value = result;
         document.getElementById("UserEnter").submit();
     } else {
-        alert("Error. Повторите ввод данных")
+        alert("Error! Прямоугольник не помещается, повторите ввод данных")
     }
 }
 
