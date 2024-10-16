@@ -7,16 +7,16 @@ function verify() {
     console.log(a, b, c, d)
 
     let low, high
-    if (a < b) {
-        low = a;
-        high = b;
+    if (c < d) {
+        low = c;
+        high = d;
     }
     else {
-        low = b;
-        high = a;
+        low = d;
+        high = c;
     }
 
-    if ((c <= high) || (d <= high)) {
+    if (((a <= high) && (b <= low)) || ((a <= low) && (b <= high))) {
         result = "Можно поместить прямоугольник"
         document.getElementById("result").innerText = result;
     } else {
