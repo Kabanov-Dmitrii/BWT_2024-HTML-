@@ -29,7 +29,7 @@
                 </li>
                 <li class="nav-item"> <a class="nav-link" href="./second(page).html">Комментарии посетителей</a>
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="./third(page).html">Последние новости недели</a>
+                <li class="nav-item"> <a class="nav-link" href="./third(page).html">Новости недели</a>
                 </li>
                 <li class="nav-item"> <a class="nav-link" href="./BLOCKS.html">Магазин</a></li>
                 <li class="nav-item"> <a class="nav-link active" href="./fourth(page).html">
@@ -42,7 +42,8 @@
 
 
         <div class="card-body"><!--начало уникального содержания-->
-            <h5 id="top" class='card-title text-center' id='top_of _page'>Оставить заявку</h5>
+            <h5 id="top" class='card-title text-center' id='top_of _page' style="font-weight: bold;">Оставить заявку
+            </h5>
             <a class="card-link" href="#section_1"></a>
             <p class="card-text" style="font-weight: bold;"></p>
             <a class="card-link" href="#list"></a>
@@ -50,60 +51,42 @@
 
 
 
-        <div class="container">
-            <form class="row g-3" action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-                <input name="q" type="hidden" value="search">
-                <div class="col-md-6">
-                    <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" value="123456789@mail.ru">
-                </div>
-                <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4" value="Turbo Svin">
-                </div>
-                <div class="col-12">
-                    <label for="inputAddress" class="form-label">Address</label>
-                    <input type="text" class="form-control" id="inputAddress"
-                        value="1234 street Paradise home 36 flat 9">
-                </div>
-                <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address - 2</label><br>
-                    <input class="form-check-input" type="radio" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        2
-                    </label>
-                </div>
-                <div class="col-12">
-                    <input class="form-check-input" type="radio" id="flexRadioDefault2">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        1
-                    </label>
-                </div>
-                <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity" value="Moscow">
-                </div>
-                <div class="col-md-4">
-                    <label for="inputState" class="form-label">State</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <label for="inputZip" class="form-label">Zip</label>
-                    <input type="text" class="form-control" id="inputZip" value="1234567TTX">
-                </div>
-                <div class="col-12">
-                    <label for="inputAge" class="form-label">Age</label>
-                    <input type="number" class="form-control" id="inputAge" value="18">
-                </div>
-                <div class="col-12">
-                    <input class="btn btn-primary" type="Submit" value="Отправить">
-                </div>
-            </form>
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                    <input type="hidden" name="q" value="search">
+                    <p>First-name: <input type="Text" name="last_name" size=20 value="Андраник"></p>
+                    <p>Second-name: <input type="Name" name="last_name" size=20 value="Кальянов"></p>
+                    <p>Age: <input type="Number" name="age" size=20 value="10"></p>
+                    <p>Adress:
+                        <input type="Radio" name="place" value="Moscow">London
+                        <input type="Radio" name="place" value="Nizhny" checked>Moscow
+                        <input type="Radio" name="place" value="Nizhny" checked>Kuala-Lumpur
+                    </p>
+
+                    <p>Your goal:
+                        <input type="Checkbox" name="experience" value="10">To write a comment
+                        <input type="Checkbox" name="experience" value="20">To order news
+                        <input type="Checkbox" name="experience" value="30" checked>To order new ideas
+                    </p>
+
+                    <p>Way of communication:
+                        <select name="languages">
+                            <OPTION value="Владею свободно">By phone</OPTION>
+                            <OPTION value="Читаю и перевожу со словарем">By email</OPTION>
+                            <OPTION value="Читаю и перевожу со словарем">By Telegram</OPTION>
+                        </select>
+                    </p>
+
+                    <p>
+                        <input type="Reset" name="Reset" value="Reset">
+                        <input type="Submit" name="submit" value="Submit">
+                    </p>
+
+                </form>
+            </div>
         </div>
-        <br>
+
     </div>
 
     <footer class="text-center" style="background-color:lavender">
