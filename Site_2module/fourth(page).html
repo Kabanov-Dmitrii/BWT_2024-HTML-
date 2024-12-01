@@ -12,15 +12,12 @@
 
 
 <body>
-    <header class="container">
-        <div style="height: 250px; width: 2000px; background-image: url(./fon-4.jpg);">
-            <div class="card-body bg-color">
-                <div class="position-absolute top-50 start-50 translate-middle">
-                    <h5 class="display-1"
-                        style="border-width: 3px; color:darkblue; font-size: 110px; font-weight:bolder;">
-                        <b>Pro-Bio-Tech</b>
-                    </h5>
-                </div>
+    <header class="card text-center" style="height: 250px; background-image: url(./fon-4.jpg);">
+        <div class="card-body bg-color">
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <h5 class="display-1" style="border-width: 3px; color:darkblue; font-size: 110px; font-weight:bolder;">
+                    <b>Pro-Bio-Tech</b>
+                </h5>
             </div>
         </div>
     </header>
@@ -51,9 +48,9 @@
                 П.А., Бутылкин Б.Б., Калгина К.Д.)</p>
             <a class="card-link" href="#list">Последовательность событий</a>
         </div><!--окончание уникального содержания-->
+
         <div class="container">
-            <form form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank"
-                class="row g-3">
+            <form action="https://www.bing.com/search?" method="post" class="row g-3">
                 <input name="q" type="hidden" value="search">
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label">Email</label>
@@ -75,8 +72,8 @@
                         Default radio
                     </label>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" id="flexRadioDefault2" checked>
+                <div class="col-12">
+                    <input class="form-check-input" type="radio" id="flexRadioDefault2">
                     <label class="form-check-label" for="flexRadioDefault1">
                         Default checked
                     </label>
@@ -106,6 +103,8 @@
             </form>
         </div>
     </div>
+
+
     <footer class="text-center" style="background-color:lavender">
         <br>
         <!-- Twitter -->
@@ -127,6 +126,7 @@
         </div>
         <!-- Copyright -->
     </footer>
+
     <script crossorigin="anonymous" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
