@@ -46,5 +46,13 @@
         "description": "Описание: Спектрофотометр 4k 'Astra'",
         "price": 599900,
         "img": "https://www.scharlab.com/assets/media/articulos/ba6f7ef6-6043-46ff-a597-10ac08c8186f/06850_230V.jpg"
+    },
+    {
+        "id": "7",
+        "title": "Товар №7",
+        "vendor_code": "5677e",
+        "description": "Пожертвование (+10 к удаче)",
+        "price": 100,
+        "img": "https://i.pinimg.com/736x/c2/8f/51/c28f51be4f51e8a7fc6ac1a691a783e5.jpg"
     }
 ]
