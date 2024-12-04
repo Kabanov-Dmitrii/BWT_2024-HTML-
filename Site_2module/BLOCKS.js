@@ -7,8 +7,8 @@ async function getResponce() {
     let content = await responce.text()
     console.log("await responce.text()\n", content)
     content = JSON.parse(content)
-    content = content.slice(0, 7)
-    console.log("content.slice(0, 7)", content)
+    content = content.slice(0, 6)
+    console.log("content.slice(0, 6)", content)
     let key
     for (key in content) {
         console.log(content[key].id, content[key].title)
