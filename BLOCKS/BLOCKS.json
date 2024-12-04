@@ -3,48 +3,48 @@
         "id": "1",
         "title": "Товар №1",
         "vendor_code": "111",
-        "description": "Описание 1",
-        "price": 100,
-        "img": "./com3.jpg"
+        "description": "Описание: Стакан Ультра-термостойкий (выдерживает абсолютный ноль)",
+        "price": 1000000,
+        "img": "https://www.priborklin.ru/wa-data/public/shop/products/20/71/7120/images/7889/7889.750x0.jpg"
     },
     {
         "id": "2",
         "title": "Товар №2",
         "vendor_code": "222",
-        "description": "Описание 2",
-        "price": 150,
+        "description": "Описание: Секвенатор в.6 'SkyBlue'",
+        "price": 15000,
         "img": "https://i.pinimg.com/736x/88/6a/38/886a38604ce82620b0b56210e3850a94.jpg"
     },
     {
         "id": "3",
         "title": "Товар №3",
         "vendor_code": "333",
-        "description": "Описание 3",
-        "price": 330,
+        "description": "Описание: Секвенатор в.10 'SkyBlue'",
+        "price": 33000,
         "img": "https://pharma-se.ru/upload/iblock/5f4/5f4bf38ac43f99fbdc464f223f5c103d.png"
     },
     {
         "id": "4",
         "title": "Товар №4",
         "vendor_code": "444e",
-        "description": "Описание 4",
-        "price": 400,
+        "description": "Описание: Амплификатор 'Illumina'",
+        "price": 40000,
         "img": "https://www.bbrc.ru/upload/iblock/069/p84gdbqfm0gju7r919ndfo0engttu3sh/Bio_Rad-DNK_amplifikator-v-realnom-vremeni-CFX96-Touch.jpg"
     },
     {
         "id": "5",
         "title": "Товар №5",
         "vendor_code": "4445e",
-        "description": "Описание 6",
-        "price": 999,
+        "description": "Описание: Амплификатор 'GenesisX100'",
+        "price": 99900,
         "img": "https://vneshbiotorg.ru/uploads/photogallery/Blue-Ray-Biotech_TurboCycler-Lite_01-210210-135945-m273656-1.jpg"
     },
     {
         "id": "6",
         "title": "Товар №6",
         "vendor_code": "4446e",
-        "description": "Описание 6",
-        "price": 5999,
+        "description": "Описание: Спектрофотометр 4k 'Astra'",
+        "price": 599900,
         "img": "https://www.scharlab.com/assets/media/articulos/ba6f7ef6-6043-46ff-a597-10ac08c8186f/06850_230V.jpg"
     }
 ]
